@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login_cs.css">
+</head>
+<body>
+    <div class="contain">
+        <div class="head">
+            <h2>LOGIN FORM</h2>
+        </div>
+        <form action="/login" class="fm" method="POST">
+            <div class="form-con">
+                <label for="">EMAIL ID</label>
+                <input type="email" name="email" placeholder="EMAIL ID" autocomplete="off" >
+                
+                <small>error</small>
+            </div>
+            <div class="form-con">
+                <label for="">PASSWORD</label>
+                <input type="password" name="password"  placeholder="PASSWORD"  autocomplete="off" >
+                
+                <small>error</small>
+            </div>
+            <input type="submit" value="submit" class="btun" name="">
+            <a href="register.hbs" class="fn">Don't Have An Account? Register With Us</a>
+        </form>
+        
+    </div>
+</body>
+</html>
